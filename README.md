@@ -1,4 +1,4 @@
-# HashCrackAPI 🔑
+# HashCrack22000 🔑
 
 Este script de Bash permite automatizar el envío de hashes tipo WPA (`algo_mode: 22000`) al servicio de **OnlineHashCrack**, en bloques de 10 hashes por petición. Ideal para manejar archivos extensos de hashes y automatizar el proceso con gestión de límite de uso de la API (status 429).
 
