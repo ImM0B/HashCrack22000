@@ -1,10 +1,10 @@
-# 🔓 HashCrackAPI 🔐
+# HashCrackAPI 🔑
 
 Este script de Bash permite automatizar el envío de hashes tipo WPA (`algo_mode: 22000`) al servicio de **OnlineHashCrack**, en bloques de 10 hashes por petición. Ideal para manejar archivos extensos de hashes y automatizar el proceso con gestión de límite de uso de la API (status 429).
 
 ## 🚀 Requisitos
 
-Para obtener este script y los archivos necesarios, podés clonar este repositorio usando el siguiente comando en tu terminal:
+Para obtener este script y los archivos necesarios, puedes clonar este repositorio usando el siguiente comando en tu terminal:
 
 ```bash
 git clone https://github.com/tuusuario/HashCrackAPI.git
@@ -56,21 +56,4 @@ Parámetros requeridos:
 
 Ejemplo:
   ./hashCrackAPI.sh unique_hashes.txt sk_xxxxxxxxxxxxxxxxxxxxxxxx
-```
-
----
-
-## 🧪 Ejemplo de ejecución
-
-```bash
-📤 Enviando lote de 10 hashes...
-    ↳ Código HTTP: 200
-    ✅ Tasks added successfully to your dashboard.
-    🗑️  Lote procesado y eliminado del archivo.
-```
-
-```bash
-📤 Enviando lote de 10 hashes...
-    ↳ Código HTTP: 429
-    ⌛ Límite alcanzado. Durmiendo 1 hora...
 ```
