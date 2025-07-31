@@ -7,7 +7,7 @@ Este script de Bash permite automatizar el envío de hashes tipo WPA (`algo_mode
 Para obtener este script y los archivos necesarios, puedes clonar este repositorio usando el siguiente comando en tu terminal:
 
 ```bash
-git clone https://github.com/tuusuario/HashCrackAPI.git
+git clone https://github.com/ImM0B/HashCrackAPI.git
 ```
 
 ### 🛠 Permisos de ejecución
